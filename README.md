@@ -6,7 +6,8 @@ VintageCalc is a simple, stylish, and functional calculator built using HTML, CS
 
 You can try the live version of the VintageCalc here:  https://vintageclac.netlify.app/
 
-![image](https://github.com/user-attachments/assets/3341295b-0ce3-4292-a1c3-fb8cb916b96a)
+![image](https://github.com/user-attachments/assets/8708c5d2-4673-43c2-9dfb-328203ad2728)
+
 
 ## **Features**
 
