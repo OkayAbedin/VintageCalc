@@ -4,7 +4,7 @@ VintageCalc is a simple, stylish, and functional calculator built using HTML, CS
 
 ## **Live Demo**
 
-You can try the live version of the VintageCalc here:  https://vintagecalc.netlify.app
+You can try the live version of the VintageCalc here:  https://vintageclac.netlify.app/
 
 ![image](https://github.com/user-attachments/assets/3341295b-0ce3-4292-a1c3-fb8cb916b96a)
 
