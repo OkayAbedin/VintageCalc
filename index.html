@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>VintageCalc</title>
-    <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DotGothic16&family=Reem+Kufi:wght@400..700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
 </head>
@@ -16,34 +18,36 @@
             <div class="display">
                 <input type="text" name="display">
             </div>
-            <div>
-                <input type="button" value="AC" class="operator">
-                <input type="button" value="DE" class="operator">
-                <input type="button" value="." class="operator">
-                <input type="button" value="/" class="operator">
-            </div>
-            <div>
-                <input type="button" value="7">
-                <input type="button" value="8">
-                <input type="button" value="9">
-                <input type="button" value="*" class="operator">
-            </div>
-            <div>
-                <input type="button" value="4">
-                <input type="button" value="5">
-                <input type="button" value="6">
-                <input type="button" value="-" class="operator">
-            </div>
-            <div>
-                <input type="button" value="1">
-                <input type="button" value="2">
-                <input type="button" value="3">
-                <input type="button" value="+" class="operator">
-            </div>
-            <div>
-                <input type="button" value="00">
-                <input type="button" value="0">
-                <input type="button" value="=" class="equal operator">
+            <div class="buttons">
+                <div>
+                    <input type="button" value="AC" class="operator acde">
+                    <input type="button" value="DE" class="operator acde">
+                    <input type="button" value="." class="operator">
+                    <input type="button" value="/" class="operator">
+                </div>
+                <div>
+                    <input type="button" value="7">
+                    <input type="button" value="8">
+                    <input type="button" value="9">
+                    <input type="button" value="*" class="operator">
+                </div>
+                <div>
+                    <input type="button" value="4">
+                    <input type="button" value="5">
+                    <input type="button" value="6">
+                    <input type="button" value="-" class="operator">
+                </div>
+                <div>
+                    <input type="button" value="1">
+                    <input type="button" value="2">
+                    <input type="button" value="3">
+                    <input type="button" value="+" class="operator">
+                </div>
+                <div>
+                    <input type="button" value="00">
+                    <input type="button" value="0">
+                    <input type="button" value="=" class="equal operator">
+                </div>
             </div>
         </form>
     </div>

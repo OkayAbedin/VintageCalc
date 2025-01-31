@@ -20,13 +20,17 @@ document.addEventListener("DOMContentLoaded", function () {
             return;
         }
 
+        // Prevent input exceeding 10 digits
+        if (display.value.replace(/[\+\-\*\/]/g, '').length >= 10) return;
+
         display.value += value;
     }
 
     // Calculate result
     function calculateResult() {
         try {
-            display.value = Function('"use strict";return (' + display.value + ')')();
+            let result = Function('"use strict";return (' + display.value + ')')();
+            display.value = parseFloat(result.toFixed(10));
         } catch {
             display.value = "Error";
         }
