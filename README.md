@@ -29,7 +29,7 @@ To run the VintageCalc on your local machine:
 1. **Clone the Repository**:
    Clone the repository to your local machine using Git:
    ```bash
-   git clone https://github.com/yourusername/vintagecalc.git
+   git clone https://github.com/okayabedin/vintagecalc.git
    ```
 
 2. **Open the Project**:
@@ -58,7 +58,7 @@ If you'd like to contribute to the development of VintageCalc, feel free to fork
 1. Fork the repository by clicking the "Fork" button at the top of the page.
 2. Clone your forked repository:
    ```bash
-   git clone https://github.com/yourusername/vintagecalc.git
+   git clone https://github.com/okayabedin/vintagecalc.git
    ```
 3. Create a new branch for your changes:
    ```bash
